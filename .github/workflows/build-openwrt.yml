@@ -17,9 +17,9 @@ on:
       ssh:
         description: 'SSH connection to Actions'
         required: false
-        default: true
-#  schedule:
-#    - cron: 0 8 * * 5
+        default: false
+  schedule:
+    - cron: 0 0 * * *
 
 env:
   REPO_URL: https://github.com/hungleungi/lede
