@@ -11,7 +11,6 @@
 #
 git clone https://github.com/hungleungi/openwrt-passwall package/openwrt-passwall
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
-git clone https://github.com/tuanqing/install-program package/install-program
 git clone https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
 git clone https://github.com/pymumu/openwrt-smartdns package/openwrt-smartdns
 # Modify default IP
