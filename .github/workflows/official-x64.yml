@@ -26,7 +26,7 @@ env:
   REPO_BRANCH: openwrt-19.07
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: x64.config
-  DIY_SH: official-diy.sh
+  DIY_SH: official-x64.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
