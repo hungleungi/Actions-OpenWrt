@@ -10,5 +10,8 @@
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 git clone https://github.com/hungleungi/helloworld package/helloworld
+git clone -b lede https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
+git clone https://github.com/pymumu/openwrt-smartdns package/openwrt-smartdns
+git clone https://github.com/tuanqing/install-program package/install-program
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.10.252/g' package/base-files/files/bin/config_generate
