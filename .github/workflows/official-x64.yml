@@ -22,8 +22,8 @@ on:
 #    - cron: 1 0 * * *
 
 env:
-  REPO_URL: https://github.com/hungleungi/openwrt
-  REPO_BRANCH: openwrt-19.07
+  REPO_URL: https://github.com/openwrt/openwrt
+  REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: offical-x64.config
   DIY_SH: official-x64.sh
