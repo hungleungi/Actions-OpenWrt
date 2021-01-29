@@ -10,7 +10,10 @@
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
 #git clone https://github.com/yichya/openwrt-xray package/openwrt-xray
-git clone https://github.com/yichya/luci-app-xray package/luci-app-xray
+#git clone https://github.com/yichya/luci-app-xray package/luci-app-xray
+
+git clone https://github.com/kuoruan/openwrt-v2ray.git package/v2ray-core
+git clone -b luci2 https://github.com/kuoruan/luci-app-v2ray.git package/luci-app-v2ray
 
 git clone https://github.com/mchome/openwrt-vlmcsd package/openwrt-vlmcsd
 git clone https://github.com/mchome/luci-app-vlmcsd package/luci-app-vlmcsd
